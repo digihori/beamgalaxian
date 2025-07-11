@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">beamgalaxian</string>
+
+    <string name="about_title">ゲームの概要</string>
+    <string name="about_message">
+        このゲームは1970年代のビームギャラクシアンを再現したものです。<br/>
+        詳しくはWEBで。
+    </string>
+    <string name="about_ok">OK</string>
+    <string name="about_hyperlink_name">詳細はWEBで</string>
+    <string name="about_hyperlink">https://www.yahoo.co.jp</string>
+</resources>

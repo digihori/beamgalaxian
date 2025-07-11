@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/black"
+            app:title="beam galaxian"
+            app:titleTextColor="@android:color/white" />
+
+        <tk.horiuchi.beamgalaxian.GameView
+            android:id="@+id/game_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="16dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn_fire"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/btn_fire"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:contentDescription="Fire" />
+        <ImageButton
+            android:id="@+id/btn_left"
+            android:layout_marginStart="32dp"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/btn_left"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:contentDescription="Left" />
+        <ImageButton
+            android:id="@+id/btn_right"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/btn_right"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:contentDescription="Right" />
+    </LinearLayout>
+</LinearLayout>
