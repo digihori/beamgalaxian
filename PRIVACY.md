@@ -5,10 +5,7 @@ The application “Beam Galaxian” (hereinafter referred to as “this app”) 
 ## 1. Information Collected
 This app does not collect or store any of the following information:
 
--Personally identifiable information such as name, address, phone number, or email address
--Location data
--Device information such as device ID or advertising ID
--Usage data (analytics, tracking)
+Personally identifiable information such as name, address, phone number, or email address, Location data, Device information such as device ID or advertising ID Usage data (analytics, tracking)
 
 ## 2. Provision of Information to Third Parties
 Since this app does not collect personal information, it does not provide any information to third parties.
