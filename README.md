@@ -1,5 +1,5 @@
 # Beam Galaxian
->Click here for Japanese(./README.ja.md)
+[Click here for Japanese](./README.ja.md)
 
 A retro-style shooting game that recreates the 1970s electronic game “Beam Galaxian” for Android smartphones.
 
