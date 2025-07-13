@@ -1,11 +1,17 @@
 <resources>
     <string name="app_name">beamgalaxian</string>
 
-    <string name="about_title">About the Game</string>
+    <string name="about_title">Beam Galaxian</string>
     <string name="about_message">
-        This game is a reproduction of Beam Galaxian from the 1970s.
+        A retro-style shooting game that recreates the 1970s electronic game “Beam Galaxian” for Android smartphones.\n
+        Features\n
+        - Classic shooting action: move your ship left and right and fire beams\n
+        - Nostalgic 7-segment-style score display\n
+        - Enemy flash effects and authentic attack patterns\n
+        - Gamepad support\n
+        - Includes sound effects and background music\n
     </string>
     <string name="about_ok">OK</string>
-    <string name="about_hyperlink_name">More details on the web</string>
-    <string name="about_hyperlink">https://www.yahoo.co.jp</string>
+    <string name="about_hyperlink_name">Privacy Policy</string>
+    <string name="about_hyperlink">https://github.com/digihori/beamgalaxian/blob/main/PRIVACY.md</string>
 </resources>

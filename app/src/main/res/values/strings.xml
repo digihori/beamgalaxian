@@ -1,12 +1,17 @@
 <resources>
     <string name="app_name">beamgalaxian</string>
 
-    <string name="about_title">ゲームの概要</string>
+    <string name="about_title">ビームギャラクシアン</string>
     <string name="about_message">
-        このゲームは1970年代のビームギャラクシアンを再現したものです。<br/>
-        詳しくはWEBで。
+        1970年代の電子ゲーム「ビームギャラクシアン」をAndroidスマートフォン向けに再現したゲームです。\n
+        特徴\n
+        - 自機の左右移動とビーム発射によるシューティングアクション\n
+        - 懐かしの7セグメント風スコア表示\n
+        - 敵のフラッシュ演出や攻撃パターンを再現\n
+        - ゲームパッド対応\n
+        - 効果音・BGMあり\n
     </string>
     <string name="about_ok">OK</string>
-    <string name="about_hyperlink_name">詳細はWEBで</string>
-    <string name="about_hyperlink">https://www.yahoo.co.jp</string>
+    <string name="about_hyperlink_name">プライバシーポリシー</string>
+    <string name="about_hyperlink">https://github.com/digihori/beamgalaxian/blob/main/PRIVACY.ja.md</string>
 </resources>
